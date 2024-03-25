@@ -22,10 +22,24 @@ This project implements a Diffusion Model for image synthesis on medical dataset
 
 ## How We built it ![image](https://user-images.githubusercontent.com/72274851/218502434-f6e66043-0db0-4f85-b7f4-f33b2d33df1f.png)
 
+**1. Importing the Libraries:**
+Begin by importing necessary libraries such as TensorFlow or PyTorch for deep learning, along with libraries for data manipulation and visualization such as NumPy, pandas, and Matplotlib and other necessary libraries.
 
-1. **Data Preprocessing:** The BloodMNIST dataset, a subset of the MedMNIST dataset, is used to train the diffusion model.
-2. **Diffusion Model Architecture:** The model employs a forward process that adds Gaussian noise to an image, guided by a noise scheduler. This process is followed by a U-Net-based backward process that restores the image.
-3. **Evaluation:** The model's performance is quantitatively assessed using Fréchet Inception Distance (FID) and Kernel Inception Distance (KID).<br>
+**2. Dataset Preparation:**
+Load the BloodMNIST dataset, containing images of normal blood cells from individuals without diseases. The dataset is organized into 8 classes and divided into training, validation, and test sets. Images are preprocessed by center-cropping and resizing to 28x28 pixels.
+
+**3. Diffusion Model Architecture with Noise Scheduler:**
+Utilize the diffusion model architecture along with a noise scheduler. This scheduler dynamically adjusts the level and type of noise added to input images during training. The U-Net architecture is employed within this framework to perform image segmentation tasks. The wrapper facilitates the integration of the noise scheduler and U-Net architecture for efficient data augmentation. During training, the model learns to denoise and segment blood cell images, improving its robustness and generalization.
+
+**4. Performance Evaluation:**
+After training the model, evaluate its performance by plotting various metrics. 
+Loss curves depict the training progress and convergence. 
+FID (Fréchet Inception Distance) and KID (Kernel Inception Distance) curves measure the similarity between generated and real images, indicating the quality of generated samples.
+ These curves provide insights into the model's performance and its ability to produce realistic and accurate segmentations of blood cell images.
+
+By following these steps, a comprehensive framework for data augmentation, training, and evaluation of the BloodMNIST dataset using diffusion model architecture, noise scheduler, U-Net, and wrapper is built.
+
+<br>
 ![image](loss_curve.png)
 <br>
 
