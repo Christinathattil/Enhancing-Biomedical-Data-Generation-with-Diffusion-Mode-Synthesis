@@ -36,6 +36,10 @@ But it doesn't stop there.  These AI-generated images can be paired with a medic
 
 This project is just the beginning. It's a glimpse into a future where AI becomes a doctor's trusted partner, helping them see more, diagnose better, and save lives. The possibilities are truly endless!
 
+![image](Fmedmnistv2.jpg)
+
+
+
 ## How We built it ![image](https://user-images.githubusercontent.com/72274851/218502434-f6e66043-0db0-4f85-b7f4-f33b2d33df1f.png)
 
 **1. Importing the Libraries:**
