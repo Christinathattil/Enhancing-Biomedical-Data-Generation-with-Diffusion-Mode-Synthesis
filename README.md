@@ -41,7 +41,9 @@ By following these steps, a comprehensive framework for data augmentation, train
 
 ![image](loss_curve.png)
 <br>
-
+![image](FrechetInceptionDistance.png)
+<br>
+![image](KernalInceptionDistance.png)
 ## What I learned ![image](https://user-images.githubusercontent.com/72274851/218499685-e8d445fc-e35e-4ab5-abc1-c32462592603.png)
 
 
