@@ -17,9 +17,9 @@ This project implements a Diffusion Model for image synthesis on medical dataset
 4. **Wrapper:** Encapsulates noise scheduler and U-Net, streamlining integration and workflow.
 5. **BloodMNIST Dataset:** Contains images of blood cells, suitable for medical image analysis.
 6. **Framework Benefits:** Improves model robustness, generalization, and adaptability to real-world scenarios.<br>
-<p align="center">
-![image](qualitative_result.png)
-</p>
+<img src="qualitative_result.png" align = "center">
+
+
 ## How We built it ![image](https://user-images.githubusercontent.com/72274851/218502434-f6e66043-0db0-4f85-b7f4-f33b2d33df1f.png)
 
 
