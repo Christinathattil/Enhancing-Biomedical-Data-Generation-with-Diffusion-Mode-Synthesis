@@ -12,7 +12,12 @@ However, legal and technical limitations often hinder this process. This project
 ## What It Does ![image](https://user-images.githubusercontent.com/72274851/218503394-b52dfcc9-0620-4f44-94f5-46a09a5cc970.png)
 
 This project implements a Diffusion Model for image synthesis on medical datasets. 
-The model leverages a U-Net architecture to progressively restore noisy medical images to their original state. 
+1. **Data Augmentation:** Enhances model performance by diversifying training data.
+2. **Noise Scheduler:** Dynamically applies noise during training, improving model resilience and preventing overfitting.
+3. **U-Net Architecture:** Effective for image segmentation tasks, accurately capturing intricate patterns.
+4. **Wrapper:** Encapsulates noise scheduler and U-Net, streamlining integration and workflow.
+5. **BloodMNIST Dataset:** Contains images of blood cells, suitable for medical image analysis.
+6. **Framework Benefits:** Improves model robustness, generalization, and adaptability to real-world scenarios.
 
 ## How We built it ![image](https://user-images.githubusercontent.com/72274851/218502434-f6e66043-0db0-4f85-b7f4-f33b2d33df1f.png)
 
