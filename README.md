@@ -7,7 +7,7 @@ Image synthesis on medical images holds immense potential for generating more da
 However, legal and technical limitations often hinder this process. This project explores Diffusion Models, a powerful approach, to overcome these limitations and contribute to advancements in medical data generation.
 <br>
 ![image](qualitative_result.png)
-
+<br>
 
 ## What It Does ![image](https://user-images.githubusercontent.com/72274851/218503394-b52dfcc9-0620-4f44-94f5-46a09a5cc970.png)
 
