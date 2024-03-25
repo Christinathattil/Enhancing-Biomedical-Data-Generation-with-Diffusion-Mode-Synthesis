@@ -22,6 +22,7 @@ The model leverages a U-Net architecture to progressively restore noisy medical 
 
 This project provided valuable insights into:
 
+*Building application using intel oneDAL:The Intel oneAPI Data Analytics Library (oneDAL) contributes to the acceleration of big data analysis by providing highly optimised algorithmic building blocks for all phases of data analytics (preprocessing, transformation, analysis, modelling, validation, and decision making) in batch, online, and distributed processing modes of computation.The library optimizes data ingestion along with algorithmic computation to increase throughput and scalability.
 * The capabilities of Diffusion Models for biomedical image synthesis.
 * The effectiveness of U-Net architecture in image restoration tasks.
 * The importance of quantitative metrics (FID and KID) to evaluate model performance.
