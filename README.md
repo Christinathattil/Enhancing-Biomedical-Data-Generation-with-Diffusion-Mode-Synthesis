@@ -17,7 +17,7 @@ This project implements a Diffusion Model for image synthesis on medical dataset
 4. **Wrapper:** Encapsulates noise scheduler and U-Net, streamlining integration and workflow.
 5. **BloodMNIST Dataset:** Contains images of blood cells, suitable for medical image analysis.
 6. **Framework Benefits:** Improves model robustness, generalization, and adaptability to real-world scenarios.<br>
-<img src="qualitative_result.png" align = "center">
+![image](qualitative_result.png)
 
 
 ## How We built it ![image](https://user-images.githubusercontent.com/72274851/218502434-f6e66043-0db0-4f85-b7f4-f33b2d33df1f.png)
@@ -25,7 +25,7 @@ This project implements a Diffusion Model for image synthesis on medical dataset
 
 1. **Data Preprocessing:** The BloodMNIST dataset, a subset of the MedMNIST dataset, is used to train the diffusion model.
 2. **Diffusion Model Architecture:** The model employs a forward process that adds Gaussian noise to an image, guided by a noise scheduler. This process is followed by a U-Net-based backward process that restores the image.
-3. **Evaluation:** The model's performance is quantitatively assessed using Fréchet Inception Distance (FID) and Kernel Inception Distance (KID).
+3. **Evaluation:** The model's performance is quantitatively assessed using Fréchet Inception Distance (FID) and Kernel Inception Distance (KID).<br>
 ![image](loss_curve.png)
 <br>
 
