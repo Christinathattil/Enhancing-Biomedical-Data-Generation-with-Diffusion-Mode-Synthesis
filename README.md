@@ -7,7 +7,17 @@ Biomedical research often gets stuck because of limited data. Getting access to 
 
 
 ## What It Does ![image](https://user-images.githubusercontent.com/72274851/218503394-b52dfcc9-0620-4f44-94f5-46a09a5cc970.png)
-This project focuses on enhancing the performance of image segmentation tasks, particularly in the context of medical imaging using the BloodMNIST dataset. It involves the development of a comprehensive framework that integrates a diffusion model architecture with a noise scheduler and U-Net. The dataset is prepared by resizing and splitting into training, validation, and test sets. The diffusion model applies dynamic noise addition guided by the noise scheduler, while the U-Net aids in accurate segmentation of blood cell images. Evaluation metrics such as loss curves, FID, and KID curves are employed to assess model performance. Through this project, insights are gained into the process of data augmentation, model training, and evaluation, contributing to advancements in medical image analysis and potentially improving diagnostic accuracy and treatment outcomes.
+Imagine you're a doctor trying to diagnose a disease, but you don't have enough clear pictures to be certain. That's kind of how it is with medical imaging sometimes. There just aren't always enough high-quality images available.
+
+This is where MNIST neural networks come in, even though they were originally designed to recognize handwritten digits. They're a type of artificial intelligence that's really good at learning patterns from images. Here's the cool part: we can train these networks on a whole bunch of existing medical images, like blood cells. By looking at all these images, the network learns the subtle differences between healthy and unhealthy cells.
+
+Now, here's where things get exciting. This project takes that MNIST idea and builds on it.  Instead of just using existing images, we're using a special technique called a diffusion model. Think of it like taking a clear picture of a blood cell and slowly adding more and more noise until it's just static. The diffusion model can then learn how to reverse that process, starting with the static and creating a new, clear image that looks like a real blood cell!
+
+This is like having a magic machine that can create more medical images for us to analyze.  That's where the BloodMNIST dataset comes in. It's a collection of real blood cell images that we can use to train our AI system. We resize them, split them into training and testing groups, and then feed them to the system.
+
+The system itself is a three-pronged attack. First, the diffusion model creates new images based on the ones it's seen before. Then, a noise scheduler tells the model exactly how much noise to add or remove. Finally, a U-Net, which is another type of AI, analyzes the image and helps pinpoint the important parts, like the different types of blood cells.
+
+By looking at how well the system performs (using things like loss curves and fancy abbreviations like FID and KID), we can see how good it is at creating realistic images and identifying the important details.  This project is basically like training a team of AI assistants to help doctors see more and diagnose better!
 <br>
 ![image](qualitative_result.png)
 
