@@ -37,9 +37,8 @@ Loss curves depict the training progress and convergence.
 FID (Fréchet Inception Distance) and KID (Kernel Inception Distance) curves measure the similarity between generated and real images, indicating the quality of generated samples.
  These curves provide insights into the model's performance and its ability to produce realistic and accurate segmentations of blood cell images.
 
-By following these steps, a comprehensive framework for data augmentation, training, and evaluation of the BloodMNIST dataset using diffusion model architecture, noise scheduler, U-Net, and wrapper is built.
+By following these steps, a comprehensive framework for data augmentation, training, and evaluation of the BloodMNIST dataset using diffusion model architecture, noise scheduler, U-Net, and wrapper is built.<br>
 
-<br>
 ![image](loss_curve.png)
 <br>
 
