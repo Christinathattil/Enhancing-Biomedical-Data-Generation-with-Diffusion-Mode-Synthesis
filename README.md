@@ -2,7 +2,7 @@
 
 ![image](218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png)<br>
 ## Inspiration![image](https://user-images.githubusercontent.com/72274851/218500470-ec078b99-0a50-4b06-a2df-c09e47ecc187.png)
-The inspiration for this project springs from the imperative need to advance solutions for data limitations in biomedical problems. With the intricate legal and technical complexities associated with obtaining medical imagery data, the innovation and potential of the diffusion model stood out as a promising avenue. The aspiration to contribute to this critical domain sparked the choice of this project.
+Biomedical research often gets stuck because of limited data. Getting access to medical images, for instance, is a bureaucratic nightmare! That's why I'm excited about diffusion models. They offer a powerful way to generate new data, and that could be a game-changer for this field.  This project is my chance to contribute and make a real difference.
 <br>
 
 
