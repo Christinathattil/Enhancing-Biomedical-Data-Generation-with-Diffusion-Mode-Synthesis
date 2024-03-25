@@ -1,9 +1,12 @@
 # Enhancing Biomedical Data Generation with Diffusion Mode Synthesis
 
+![image](218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png)<br>
 ## Inspiration![image](https://user-images.githubusercontent.com/72274851/218500470-ec078b99-0a50-4b06-a2df-c09e47ecc187.png)
 
 Image synthesis on medical images holds immense potential for generating more data to address biomedical problems. 
 However, legal and technical limitations often hinder this process. This project explores Diffusion Models, a powerful approach, to overcome these limitations and contribute to advancements in medical data generation.
+![image](qualitative_result.png)
+
 
 ## What It Does ![image](https://user-images.githubusercontent.com/72274851/218503394-b52dfcc9-0620-4f44-94f5-46a09a5cc970.png)
 
@@ -16,6 +19,8 @@ The model leverages a U-Net architecture to progressively restore noisy medical 
 1. **Data Preprocessing:** The BloodMNIST dataset, a subset of the MedMNIST dataset, is used to train the diffusion model.
 2. **Diffusion Model Architecture:** The model employs a forward process that adds Gaussian noise to an image, guided by a noise scheduler. This process is followed by a U-Net-based backward process that restores the image.
 3. **Evaluation:** The model's performance is quantitatively assessed using Fréchet Inception Distance (FID) and Kernel Inception Distance (KID).
+![image](loss_curve.png)
+<br>
 
 ## What I learned ![image](https://user-images.githubusercontent.com/72274851/218499685-e8d445fc-e35e-4ab5-abc1-c32462592603.png)
 
