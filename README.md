@@ -6,8 +6,7 @@
 Image synthesis on medical images holds immense potential for generating more data to address biomedical problems. 
 However, legal and technical limitations often hinder this process. This project explores Diffusion Models, a powerful approach, to overcome these limitations and contribute to advancements in medical data generation.
 <br>
-![image](qualitative_result.png)
-<br>
+
 
 ## What It Does ![image](https://user-images.githubusercontent.com/72274851/218503394-b52dfcc9-0620-4f44-94f5-46a09a5cc970.png)
 
@@ -17,7 +16,8 @@ This project implements a Diffusion Model for image synthesis on medical dataset
 3. **U-Net Architecture:** Effective for image segmentation tasks, accurately capturing intricate patterns.
 4. **Wrapper:** Encapsulates noise scheduler and U-Net, streamlining integration and workflow.
 5. **BloodMNIST Dataset:** Contains images of blood cells, suitable for medical image analysis.
-6. **Framework Benefits:** Improves model robustness, generalization, and adaptability to real-world scenarios.
+6. **Framework Benefits:** Improves model robustness, generalization, and adaptability to real-world scenarios.<br>
+<center> ![image](qualitative_result.png) </center>
 
 ## How We built it ![image](https://user-images.githubusercontent.com/72274851/218502434-f6e66043-0db0-4f85-b7f4-f33b2d33df1f.png)
 
