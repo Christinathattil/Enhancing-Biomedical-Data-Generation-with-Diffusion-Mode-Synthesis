@@ -32,7 +32,3 @@ This project provided valuable insights into:
 * The capabilities of Diffusion Models for biomedical image synthesis.
 * The effectiveness of U-Net architecture in image restoration tasks.
 * The importance of quantitative metrics (FID and KID) to evaluate model performance.
-
-**Additional Notes**
-
-Qualitative results showcasing generated images are provided in the `qualitative_result.jpg` file.
