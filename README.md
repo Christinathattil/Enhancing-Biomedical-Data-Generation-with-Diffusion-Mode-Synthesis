@@ -7,14 +7,8 @@ The inspiration for this project springs from the imperative need to advance sol
 
 
 ## What It Does ![image](https://user-images.githubusercontent.com/72274851/218503394-b52dfcc9-0620-4f44-94f5-46a09a5cc970.png)
-
-This project implements a Diffusion Model for image synthesis on medical datasets. 
-1. **Data Augmentation:** Enhances model performance by diversifying training data.
-2. **Noise Scheduler:** Dynamically applies noise during training, improving model resilience and preventing overfitting.
-3. **U-Net Architecture:** Effective for image segmentation tasks, accurately capturing intricate patterns.
-4. **Wrapper:** Encapsulates noise scheduler and U-Net, streamlining integration and workflow.
-5. **BloodMNIST Dataset:** Contains images of blood cells, suitable for medical image analysis.
-6. **Framework Benefits:** Improves model robustness, generalization, and adaptability to real-world scenarios.<br>
+This project focuses on enhancing the performance of image segmentation tasks, particularly in the context of medical imaging using the BloodMNIST dataset. It involves the development of a comprehensive framework that integrates a diffusion model architecture with a noise scheduler and U-Net. The dataset is prepared by resizing and splitting into training, validation, and test sets. The diffusion model applies dynamic noise addition guided by the noise scheduler, while the U-Net aids in accurate segmentation of blood cell images. Evaluation metrics such as loss curves, FID, and KID curves are employed to assess model performance. Through this project, insights are gained into the process of data augmentation, model training, and evaluation, contributing to advancements in medical image analysis and potentially improving diagnostic accuracy and treatment outcomes.
+<br>
 ![image](qualitative_result.png)
 
 
